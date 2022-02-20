@@ -1,0 +1,45 @@
+.userList {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 15px 20px;
+	border-radius: 20px;
+	width: fit-content;
+	margin: auto;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+	h1 {
+		width: 100%;
+	}
+
+	h2 {
+		font-weight: 300;
+		font-size: 20px;
+		margin: 10px 0;
+
+		a {
+			color: green;
+			font-weight: 600;
+		}
+	}
+
+	h2:nth-child(2n + 1) {
+		a {
+			color: red;
+		}
+	}
+}
+
+.singleUser {
+	border-radius: 20px;
+	width: fit-content;
+	margin: auto;
+	padding: 10px 20px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+	h2 {
+		font-weight: 300;
+		font-size: 20px;
+	}
+}

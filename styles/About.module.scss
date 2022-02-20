@@ -1,0 +1,13 @@
+.about {
+	margin-bottom: 50px;
+
+	p {
+		width: 80%;
+		margin: auto;
+		margin-top: 20px;
+
+		&::first-letter {
+			text-transform: capitalize;
+		}
+	}
+}
